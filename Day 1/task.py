@@ -6,4 +6,12 @@
 # print("Kudratpreet" + " " + "Kaur")
 
 # This line of code will take an input using the input() function
-print("Hello " + input("What is your name?") + "!")
+# print("Hello " + input("What is your name?") + "!")
+
+# print(len(input("What is the length of your name")))
+
+username = input("What is your name?")
+
+length = len(username)
+
+print(length)
